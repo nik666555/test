@@ -59,7 +59,9 @@
     },
     created () {
       this.$i18n.locale = 'ru';
-      this.loaded = true;
+      setTimeout(() => {
+        this.loaded = true;
+      }, 100)
     }
   }
 </script>
