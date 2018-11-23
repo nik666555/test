@@ -1,5 +1,6 @@
 {
   "heading": "http://nikitafrontend.site/static_img/header_tr.png",
+  "heading_m": "http://nikitafrontend.site/static_img/header_tr_m.png",
   "choose": "Ücretsiz",
   "free": "bonusunuzu",
   "bonus": "seçin",
@@ -9,6 +10,6 @@
   "offer_item_1_subheading": "F2A-1 Buffalo",
   "offer_item_2_heading": "Light tank",
   "offer_item_2_subheading": "M2A4",
-  "video": "video &",
+  "video": "video&",
   "screenshots": "Ekran Görüntüleri"
 }

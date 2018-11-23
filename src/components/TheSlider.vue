@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="slider__slides">
     <gallery :images="images" :index="index" @close="index = null"/>
     <div
       class="slider__image"
@@ -49,5 +49,24 @@
       margin-right: 0;
     }
   }
+  @media(max-width: 1023px) {
+    .slider__slides {
+      width: 280px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+    .slider__image {
+      width: 135px;
+      height: 76px;
+      margin-right: 0;
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
 </style> 
  
