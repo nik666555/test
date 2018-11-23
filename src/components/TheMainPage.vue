@@ -351,6 +351,12 @@
     .heading_m {
       display: block;
       margin: 0 auto 130px auto;
+      top: 20px;
+      position: relative;
+      transition: 0.3s top;
+      &.animate {
+        top: 0;
+      }
     }
     .heading {
       display: none;
