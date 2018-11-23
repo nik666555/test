@@ -68,4 +68,12 @@
       }
     }
   }
+  @media(max-width: 1023px) {
+    .slider {
+      .prev, .next {
+        top: 100%;
+        margin-top: -60px;
+      }
+    }
+  }
 </style>
