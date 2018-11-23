@@ -376,7 +376,10 @@
         width: 140px;
         height: 140px;
         top: 55px;
-        background: radial-gradient(rgba(226, 188, 0, 0.7) 0%, rgba(226, 90, 0, 0.85) 30%, transparent 70%, transparent 100%)
+        background: radial-gradient(rgba(226, 188, 0, 0.7) 0%, rgba(226, 90, 0, 0.85) 30%, transparent 70%, transparent 100%);
+      }
+      &:hover {
+        background: rgba(43, 17, 16, 0.71);
       }
     }
     .or {
